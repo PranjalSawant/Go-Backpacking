@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #091353;
+    color: white;
+    width: 100%;
+    text-align: justify;
+    padding: 25px 10px 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding:10px 40px 10px 40px ;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+div.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0 5px 25px 5px;
+  }
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.grid__container img{
+    height: 300px;
+    width: 100%;
+}
+
+.center{
+    background-color: #D5D5D5;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
